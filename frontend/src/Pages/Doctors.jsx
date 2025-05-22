@@ -22,7 +22,7 @@ const Doctors = () => {
 
   return (
     <div >
-      <p className='tedxt-gray-600 '>Browse through the doctors specialist.</p>
+      <p className='text-gray-600 '>Browse through the doctors specialist.</p>
       <div className='flex flex-col md:flex-row items-start gap-5 mt-5  '> 
         <button onClick={()=>setShowFilter(prev => !prev)} className={`py-1 px-3 border rounded text-sm transition-all sm:hidden ${showFilter === true ? 'bg-primary text-white':<></>}`} >Filters</button>
         <div className={`flex flex-col gap-4 text-sm text-gray-600 ${showFilter?'block':'hidden'}`}>
